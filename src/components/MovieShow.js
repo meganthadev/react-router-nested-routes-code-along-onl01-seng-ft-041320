@@ -5,9 +5,9 @@ import React from 'react';
  
   return (
     <div>
-      <h3>Movies Show Component!</h3>
+     <h3>{ movies[match.params.movieId].title }</h3>
     </div>
   );
 }
- 
+
 export default MovieShow;
